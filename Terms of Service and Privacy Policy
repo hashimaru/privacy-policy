@@ -1,5 +1,5 @@
 # Cyber Save: Media Downloader - Legal Information
-**Last Updated: March 30, 2026**
+**Last Updated: September 23, 2026**
 
 ---
 
@@ -9,44 +9,67 @@
 By downloading and using **Cyber Save: Media Downloader** ("the Application"), created by **Hashimaru**, you agree to be bound by these Terms of Service. If you do not agree, please uninstall the Application immediately.
 
 ### 2. Intellectual Property & Copyright
-*   **User Responsibility:** The Application is a standalone utility designed to process publicly available media links. You (the User) are solely responsible for ensuring that any content you download does not violate the intellectual property rights or copyright of others.
-*   **Prohibited Use:** Cyber Save does not condone, support, or encourage the unauthorized downloading of copyrighted content (e.g., music, movies, or private videos) without the owner's permission. Use of this Application for copyright infringement is strictly prohibited.
+*   **User Responsibility:** The Application is a utility for saving media from links you provide. You are solely responsible for ensuring that any content you download or share (including via BitTorrent) does not violate the intellectual property rights of others or the terms of the platform it comes from.
+*   **Prohibited Use:** Cyber Save does not condone, support, or encourage downloading copyrighted content (e.g., music, movies, or private videos) without the owner's permission. Use of this Application for copyright infringement is strictly prohibited.
 *   **Ownership:** All code, branding, and UI elements within the Application are the property of Hashimaru.
 
 ### 3. "AS IS" Disclaimer & Limitation of Liability
-*   **No Warranty:** The Application is provided on an "AS IS" and "AS AVAILABLE" basis without any warranties, express or implied. 
-*   **Liability:** To the maximum extent permitted by law, Hashimaru shall not be liable for any direct, indirect, incidental, or consequential damages (including device damage, data loss, or legal actions) arising from your use of the Application.
+*   **No Warranty:** The Application is provided on an "AS IS" and "AS AVAILABLE" basis without any warranties, express or implied.
+*   **Liability:** To the maximum extent permitted by law, Hashimaru shall not be liable for any direct, indirect, incidental, or consequential damages (including device damage, data loss, account restrictions by third-party platforms, or legal actions) arising from your use of the Application.
 
 ---
 
 ## Part 2: Privacy Policy
 
-### 1. Introduction
-Welcome to Cyber Save. Your privacy is our priority. This app is designed as a **standalone utility**, meaning we do not use external servers to process or store your personal media files. 
+### 1. Summary
+Cyber Save has no user accounts and no servers of its own. Downloaded media stays on your device. To work, the app does share some data with the services described below.
 
-### 2. Data Collection (The "Standalone" Difference)
-*   **User Media:** This Application processes videos, images, and documents locally on your device. We do not upload, store, or have access to any files you process or download.
-*   **No Account Required:** You can use Cyber Save without creating an account or providing an email address.
+### 2. Data the App Handles
 
-### 3. Third-Party Services & Advertising
-To keep this app free, we use **Appodeal** for ad mediation (integrating AdMob, AppLovin, Unity, and others). These third parties may automatically collect:
-*   **Device Identifiers:** Google Advertising ID (GAID), IP address, and device model.
-*   **Usage Data:** Ad views, clicks, and app launch frequency.
-*   **Purpose:** This data is used for frequency capping, fraud prevention, and providing personalized advertisements.
+**Links you paste or share into the app**
+To find the media behind a link, the app sends that link to the platform it belongs to (for example Instagram, TikTok, X/Twitter, Facebook, Reddit, Pinterest, Vimeo, Dailymotion, Twitch, Bilibili, VK, Bluesky, Threads, Snapchat, Streamable). For some platforms the link is also sent to third-party download or proxy services, including: tikwm.com, snapsave.app, fdownloader.net, getfvid.com, fdown.net, api.fxtwitter.com, api.vxtwitter.com, api.allorigins.win and r.jina.ai. Those services receive the link and your IP address and are governed by their own privacy policies.
 
-### 4. Data Safety & Security
-*   **Local Processing:** All core functionality happens on-device.
-*   **Encryption:** Data transmitted by our ad partners is encrypted in transit using TLS.
-*   **No Selling:** We do not sell any personal information to third parties.
+**Instagram sign-in (optional)**
+If you choose to sign in to Instagram, you do so on Instagram's own login page inside the app. The app never sees your password. It keeps Instagram's session cookies, encrypted in your device's secure storage (Android Keystore / iOS Keychain), and sends them **only to Instagram** to fetch media you request. You can sign out at any time in Settings, which deletes the stored session. Automated access may be restricted by Instagram; use this feature at your own risk.
 
-### 5. User Rights (GDPR/CCPA)
-*   **Opt-out:** You can reset your Advertising ID or opt-out of ad personalization in your Android System Settings.
-*   **Consent Management:** Upon the first launch, a consent window is provided (via Appodeal) to allow users in regulated regions to manage their data preferences.
+**Torrents (BitTorrent)**
+When you add a magnet link or .torrent file, the app joins the public BitTorrent network. As with any BitTorrent client, **your IP address is visible to other peers and to trackers** in that torrent's swarm, and pieces you have downloaded may be uploaded to other peers. Torrent metadata may be fetched from public torrent-cache services (e.g. itorrents.org). The torrent engine runs locally on your device and is not reachable from other devices.
 
-### 6. Children’s Privacy
-This app does not knowingly collect information from children under 13. If you believe we have inadvertently collected such data, please contact the developer immediately.
+**Data stored on your device**
+Download history, link history, settings and downloaded files are stored locally. They are excluded from cloud backup and device transfer, and are deleted when you uninstall the app (downloaded files saved to your gallery remain there).
+
+### 3. Third-Party Services
+The app uses the following Google services:
+
+| Service | Purpose | Data collected |
+|---|---|---|
+| **Google AdMob** | Displays ads (banner, interstitial, native, and opt-in rewarded ads) | Advertising ID, IP address, device info, ad interactions |
+| **Firebase Analytics** | Understanding app usage | App-instance ID, screens viewed, feature usage events, device info |
+| **Firebase Crashlytics** | Crash reporting | Crash logs, device and OS info, app state at the time of the crash |
+| **Firebase Performance Monitoring** | App performance | Network request timings, app start times, device info |
+| **Firebase Remote Config / App Check** | Feature configuration and abuse prevention | App-instance ID, device attestation tokens |
+
+See Google's policy on how it uses data from partner apps: https://policies.google.com/technologies/partner-sites
+
+### 4. Consent & Your Choices
+*   **Ad consent:** In regions where it is required (e.g. EEA, UK, Switzerland), a consent form powered by Google's User Messaging Platform is shown on first launch. You can change your choice later from the app's settings.
+*   **Ad personalization:** You can reset your Advertising ID or opt out of personalized ads in your Android system settings.
+*   **Instagram session:** Sign out in Settings to delete stored session cookies.
+*   **Deletion:** Uninstalling the app removes all locally stored app data. Because we do not operate servers or accounts, we hold no personal data about you; requests regarding data held by Google services can be sent to us and we will assist.
+
+### 5. Security
+Network requests use HTTPS where the source supports it. Sensitive values (Instagram session, app entitlement state) are stored in encrypted device storage.
+
+### 6. No Selling of Data
+We do not sell your personal information.
+
+### 7. Children's Privacy
+This app is not directed to children under 13 and does not knowingly collect information from them. If you believe a child has used the app and data was collected, contact us and we will help.
+
+### 8. Changes
+We may update this policy. The "Last Updated" date above will change when we do.
 
 ---
 
 ## Contact
-For any questions regarding these terms, please contact the developer: **Hashimaru**.
+Hashimaru — **mr.hashimaru@gmail.com**
